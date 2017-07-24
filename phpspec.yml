@@ -1,0 +1,4 @@
+suites:
+  makeup_suite:
+    namespace: carlosV2\MakeUp
+    psr4_prefix: carlosV2\MakeUp
