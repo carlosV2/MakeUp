@@ -1,0 +1,35 @@
+{
+    "name": "carlosv2/makeup",
+    "type": "library",
+    "description": "Data rendering by template",
+    "keywords": [
+        "Rendering",
+        "Template",
+        "Data",
+        "Twig"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Ortega",
+            "email": "carlosV2.0@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "carlosV2\\MakeUp\\": "src"
+        }
+    },
+    "require": {
+        "symfony/expression-language": "^3.3",
+        "carlosv2/can": "^1.4"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.4"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
